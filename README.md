@@ -1,7 +1,5 @@
 # Work-Schedule
 
-# CodingQuiz
-
 ## Description
 
 The motivation for this project was to build a work day scheduling application for the busy web developer and other working professionals so that they can plan out their days to be the most productive. I built this project for myself but to also share with others who like me, have plenty of things to do in the day and don't have the mental capacities to remember it all. This solves the problem of forgetting important, upcoming things that we often put to the side for the stuff we're currently working on. We can simply just log everything at the beginning of the day, and check each hour to make sure we are on schedule. From working on this project I've learned how to use Third-party apps to make my page both stylish and dynamic, and how to use local storage to effectively save information on my page, even after closing my browser.

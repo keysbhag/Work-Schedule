@@ -78,7 +78,7 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.container{
+.container{ /* Added this container to give the schedule content some more space */
   margin-bottom: 80px;
   margin-top: 60px;
 }
