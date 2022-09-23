@@ -18,8 +18,13 @@ function changeSchedule() {
         }    
     }
 
+    if (moment().format("HH:mm") == "23:59") {
+        for (let i = 0; i < 9; i++) {  
+    
+            localStorage.setItem('event'+i.toString(), JSON.stringify(' '));
+        }
+    }
 }
-
 
 // Everything below handles saving events in the scheduler
 let saveBtn = $('.save-btn');
@@ -44,8 +49,11 @@ saveBtn.on('click',function (event) {
             localStorage.setItem('event'+i.toString(), JSON.stringify(addEvent.val()));
         }
     }
+
 })
 
 init();
 
 changeSchedule();
+
+
