@@ -26,7 +26,9 @@ This is the functionality of my scheduling application
 
 ## Wire Frame
 
+This is the wire frame design
 
+![Large overview of Wire frame](./assets/images/WireFrameWDS.png)
 
 
 ## Deployed Application
